@@ -45,8 +45,8 @@ services:
       - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_ROOT_HOST="%""
-      - MYSQL_DATABASE=task_manager
+      - MYSQL_ROOT_HOST=root
+      - MYSQL_DATABASE=sahdome
       - MYSQL_USER=admin
       - MYSQL_PASSWORD=secret
     networks:
